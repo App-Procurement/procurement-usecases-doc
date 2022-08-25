@@ -57,6 +57,7 @@
     line-height: 20px;
     font-weight: 500;
     color: #212529;
+    padding-top: 5px;
 }
 .new-dashboard-slider-container .select-scenario-left ul li .item.active .name{
     color: red;
@@ -122,12 +123,27 @@
 }
 .new-dashboard-slider-container .dashboard-sub-scenario-container
 .slider-section .item .product-links{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+    width: fit-content;
+    margin: 5px auto 0;
+}
+
+.new-dashboard-slider-container .dashboard-sub-scenario-container
+.slider-section .item .product-links .name{
+    border-right: 2px solid #ffffff;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    padding: 5px 15px;
 }
 .new-dashboard-slider-container .dashboard-sub-scenario-container
-.slider-section .item .product-links a{
+.slider-section .item .product-links .name:last-child{
+    border-right: none;
+}
+.new-dashboard-slider-container .dashboard-sub-scenario-container
+.slider-section .item .product-links .name a{
     color: #ffffff;
     text-decoration: none;
     font-size: 16px;
@@ -163,11 +179,16 @@
 }
 .modal-main-content .modal-body-content{
     padding: 20px;
-    height: 100%;
+    height: 210px;
+}
+.modal-main-content .modal-header{
+    padding: 0 0 15px 0;
 }
 .modal-main-content .modal-header h3{
+    font-size: 18px;
     color: #484848;
     font-weight: 500;
+    margin: 0;
 }
 .modal-main-content .modal-header span{
     width: 30px;
@@ -182,17 +203,25 @@
     line-height: 32px;
     color: #ff5a5f;
 }
-.modal-main-content .modal-body-content .form-check{
+.modal-main-content .modal-body-content .module-chack-box{
     display: flex;
     align-items: center;
     justify-content: start;
 }
-.modal-main-content .modal-body-content .form-check .form-check-input{
+.modal-main-content .modal-body-content .module-chack-box .form-check-input{
     width: 22px;
     height: 22px;
     border-color: #d1d1d6;
+    margin-right: 8px;
 }
-.modal-main-content .modal-body-content label{
+.modal-main-content .modal-body-content .module-chack-box  .module-user-profile{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-main-content .modal-body-content .module-chack-box label{
     font-size: 16px;
     line-height: 20px;
     font-weight: 400;

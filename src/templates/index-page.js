@@ -5,11 +5,11 @@ import logo from '../img/scenario/homepage/logo.png';
 import ScenarioSlider from '../components/Scenario/ScenarioSlider';
 import { v4 } from 'uuid';
 import { AiFillCloseCircle } from 'react-icons/ai';
+import '../css/index.css';
 import '../css/newdashboard.css';
 import '../css/scenario.css';
 import '../css/form.css';
 import '../css/home.css';
-import '../css/index.css';
 import '../css/service.css';
 import '../css/tabs.css';
 import Modal from 'react-modal';
@@ -207,9 +207,11 @@ export const IndexPageTemplate = ({ scenarios, slider }) => {
 			if (modules.indexOf(data.module) === -1) {
 				retData.push(
 					<div className="col-md-4">
-						<div className="form-check">
+						<div className="form-check module-chack-box">
 							<input className="form-check-input" checked={!data.isChecked} onChange={(e) => setSelectedUser(e, i, data.module)} type="checkbox" id="flexCheckDefault" />
-					<img src={data.logo} alt={data.logo} width="15%"/>
+							<div className="module-user-profile">
+								<img src={data.logo} alt={data.logo} />
+							</div>
 							<label className="form-check-label" htmlFor="flexCheckDefault">
 								{data.module}
 							</label>

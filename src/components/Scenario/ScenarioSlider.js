@@ -45,9 +45,8 @@ const ScenarioSlider = ({ slider, showMoreDetailsButton }) => {
         {slider.map((sliderContent, index) => (
           <article
             key={v4()}
-            className={`slider-content ${
-              currentSlide === index ? 'active' : ''
-            }`}>
+            className={`slider-content ${currentSlide === index ? 'active' : ''
+              }`}>
             {/* <Scrollbars> */}
             <div className='item-image'>
               <Item
@@ -176,14 +175,13 @@ const ScenarioSlider = ({ slider, showMoreDetailsButton }) => {
               <li
                 key={v4()}
                 onClick={() => setCurrentSlide(index)}
-                className={`pager-item ${
-                  currentSlide === index ? 'active' : ''
-                }`}></li>
+                className={`pager-item ${currentSlide === index ? 'active' : ''
+                  }`}></li>
             ))}
           </ul>
-          <button className='learn-more' onClick={() => setShowDetails(true)}>
+          {/* <button className='learn-more' onClick={() => setShowDetails(true)}>
             Learn More
-          </button>
+          </button> */}
         </div>
         <button className='nabtn-left' onClick={goToPreviousSlide}>
           <AiOutlineLeft />
