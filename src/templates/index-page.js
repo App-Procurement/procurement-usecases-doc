@@ -123,7 +123,7 @@ export const IndexPageTemplate = ({ scenarios, slider }) => {
 													</div>
 													<div className="product-links">
 														<div className="name"><a target="_blank" href={item.link}>Prototype</a></div>
-														<div className="name"> <a target="_blank" href={item.screenshots}>screenshots</a></div>
+														<div className="name"> <a target="_blank" href={item.screenshots}>Screenshots</a></div>
 													</div>
 												</div>
 											</div>
