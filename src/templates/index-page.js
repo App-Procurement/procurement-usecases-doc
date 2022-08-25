@@ -37,11 +37,13 @@ export const IndexPageTemplate = ({ scenarios, slider }) => {
 		if (uc.useCaseSlider) {
 			setUseCase(uc);
 			setShowUseCase(true);
+			document.body.style.overflow = "hidden";
 		}
 	}
 
 	function onClickUseCaseClose() {
 		setShowUseCase(false);
+		document.body.style.overflow = "auto";
 	}
 
 	function onClickSubSelectScenario(scenario) {
