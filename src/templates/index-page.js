@@ -123,7 +123,9 @@ export const IndexPageTemplate = ({ scenarios, slider }) => {
 													</div>
 													<div className="product-links">
 														<div className="name"><a target="_blank" href={item.link}>Prototype</a></div>
-														<div className="name"> <a target="_blank" href={item.screenshots}>Screenshots</a></div>
+														<div className="name"> <a href='#' style={{cursor: 'pointer'}} onClick={() => {
+															onClickUseCase(item);
+														}}>Screenshots</a></div>
 													</div>
 												</div>
 											</div>
