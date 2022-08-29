@@ -91,7 +91,7 @@ scenarios:
               variety of coffee beans grown with great care for the environment
               and local communities. Check our post or contact us directly for
               current availability.
-        logo: https://res.cloudinary.com/papu/image/upload/v1661773604/Final%20Procurement/Admin_Dashboard_lj1pxm.png
+        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
       - img: https://res.cloudinary.com/papu/image/upload/v1618826808/icrisat/1PSDSAdmin/2Purchase-Order/1RFP_janjms.jpg
         name: Request For Proposal
         link: http://localhost:8888/newdashboard
