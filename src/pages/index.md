@@ -17,7 +17,7 @@ scenarios:
               and local communities. Check our post or contact us directly for
               current availability.
             name: Dashboard
-            img: https://res.cloudinary.com/papu/image/upload/v1618826806/icrisat/1PSDSAdmin/1Admin-Portal/1Dashboard_h0hoxl.jpg
+            img: https://res.cloudinary.com/papu/image/upload/v1661773604/Final%20Procurement/Admin_Dashboard_lj1pxm.png
           - img: https://res.cloudinary.com/papu/image/upload/v1618826806/icrisat/1PSDSAdmin/1Admin-Portal/2EmailPage_bq5axz.jpg
             name: Email Page
             text: We sell green and roasted coffee beans that are sourced directly from
