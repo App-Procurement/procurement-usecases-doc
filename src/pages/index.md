@@ -2,14 +2,14 @@
 templateKey: index-page
 title: NewDashboard
 scenarios:
-  - img: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg.svg
+  - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
     name: Procurement Admin
     subItems:
-      - img: https://res.cloudinary.com/papu/image/upload/v1618826806/icrisat/1PSDSAdmin/1Admin-Portal/1Dashboard_h0hoxl.jpg
-        name: Portal
-        link: http://localhost:8888/newdashboard
-        screenshots: http://localhost:8888/newdashboard
-        module: test1
+      - img: https://res.cloudinary.com/papu/image/upload/v1661773604/Final%20Procurement/Admin_Dashboard_lj1pxm.png
+        name: Admin Portal
+        link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=2082%3A6113&node-id=2082%3A6114&viewport=673%2C234%2C0.08&scaling=min-zoom&starting-point-node-id=2082%3A6114&show-proto-sidebar=1
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1661773604/Final%20Procurement/Admin_Dashboard_lj1pxm.png
+        module: Admin Portal
         useCaseSlider:
           - text: We sell green and roasted coffee beans that are sourced directly from
               independent farmers and farm cooperatives. We’re proud to offer a
@@ -17,7 +17,7 @@ scenarios:
               and local communities. Check our post or contact us directly for
               current availability.
             name: Dashboard
-            img: https://res.cloudinary.com/papu/image/upload/v1618826806/icrisat/1PSDSAdmin/1Admin-Portal/1Dashboard_h0hoxl.jpg
+            img: https://res.cloudinary.com/papu/image/upload/v1661773604/Final%20Procurement/Admin_Dashboard_lj1pxm.png
           - img: https://res.cloudinary.com/papu/image/upload/v1618826806/icrisat/1PSDSAdmin/1Admin-Portal/2EmailPage_bq5axz.jpg
             name: Email Page
             text: We sell green and roasted coffee beans that are sourced directly from
