@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: App-Procurement/procurement-usecases-doc1
   branch: main
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
