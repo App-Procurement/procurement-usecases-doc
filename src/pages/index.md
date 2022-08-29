@@ -2,7 +2,7 @@
 templateKey: index-page
 title: NewDashboard
 scenarios:
-  - img: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg.svg
+  - img: https://res.cloudinary.com/papu/image/upload/v1661773604/Final%20Procurement/Admin_Dashboard_lj1pxm.png
     name: Procurement Admin
     subItems:
       - img: https://res.cloudinary.com/papu/image/upload/v1661773604/Final%20Procurement/Admin_Dashboard_lj1pxm.png
