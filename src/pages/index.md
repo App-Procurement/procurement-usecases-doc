@@ -117,6 +117,22 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1661856232/Final%20Procurement/Purchase%20Requisition/View_Purchase_Requisitions_vljp56.png
             name: purchase Request
             text: none
+      - screenshots: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        module: Purchase order
+        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        name: Purchase order
+        img: https://res.cloudinary.com/papu/image/upload/v1661856828/Final%20Procurement/purchase%20order/Purchase_Order_nfpxbd.png
+        link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=3139%3A12644&node-id=3209%3A23016&viewport=430%2C296%2C0.08&scaling=min-zoom&starting-point-node-id=3209%3A23016
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1661856828/Final%20Procurement/purchase%20order/Purchase_Order_nfpxbd.png
+            name: purchase order
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1661856828/Final%20Procurement/purchase%20order/Veiw_Purchase_Order_nrgjdz.png
+            name: View Purchase order
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1661856828/Final%20Procurement/purchase%20order/View_Purchase_Requisitions_vaqeaj.png
+            name: purchase order
+            text: none
   - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
     name: Director General
     subItems:
