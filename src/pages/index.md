@@ -177,6 +177,25 @@ scenarios:
           - name: Import Supplier
             img: https://res.cloudinary.com/papu/image/upload/v1661859373/Final%20Procurement/Supplier/Import_Supplier_yu8qs9.png
             text: none
+      - name: Product Management
+        link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=3139%3A12644&node-id=3224%3A25689&viewport=196%2C-16%2C0.1&scaling=min-zoom&starting-point-node-id=3224%3A25689
+        module: Product Management
+        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        img: https://res.cloudinary.com/papu/image/upload/v1661860362/Final%20Procurement/product%20management/Active_Products_yghose.png
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1661860362/Final%20Procurement/product%20management/Active_Products_yghose.png
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1661860362/Final%20Procurement/product%20management/Active_Products_yghose.png
+            name: Active product
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1661860362/Final%20Procurement/product%20management/Add_Product_gvpv0f.png
+            name: Add product
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1661860361/Final%20Procurement/product%20management/Import_Product_bgbxwr.png
+            name: Import Product
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1661860361/Final%20Procurement/product%20management/Update_product_gz868n.png
+            name: Update Product
+            text: none
   - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
     name: Director General
     subItems:
