@@ -270,7 +270,7 @@ scenarios:
             name: Request Timeline
             text: None
   - img: https://res.cloudinary.com/papu/image/upload/v1618832633/icrisat/5Vendor-portal/Vendor_grre9u.svg
-    name: Vendor
+    name: Supplier
     subItems:
       - img: https://res.cloudinary.com/papu/image/upload/v1618827008/icrisat/5Vendor-portal/1Vendor-Portal/1Tenderer_Dashboard_mozvtk.jpg
         name: Portal
@@ -382,7 +382,7 @@ scenarios:
               current availability.
         logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
   - img: https://res.cloudinary.com/papu/image/upload/v1618832657/icrisat/6Bidding/Bidding_kc40mh.svg
-    name: "Bidder "
+    name: Approver
     subItems:
       - img: https://res.cloudinary.com/papu/image/upload/v1618827028/icrisat/6Bidding/Bidding-Portal/1Tender_Dashboard_njq0pe.jpg
         name: Portal
