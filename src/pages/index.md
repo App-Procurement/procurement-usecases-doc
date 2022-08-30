@@ -104,6 +104,19 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1661854927/Final%20Procurement/kanban/Frame_853_kdlu95.png
             name: Add Task
             text: none
+      - name: Purchase Requisition
+        link: https://www.figma.com/file/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?node-id=3139%3A12644
+        module: Purchase Requisition
+        img: https://res.cloudinary.com/papu/image/upload/v1661856232/Final%20Procurement/Purchase%20Requisition/Purchase_Requisitions_rh6o5y.png
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1661856232/Final%20Procurement/Purchase%20Requisition/Purchase_Requisitions_rh6o5y.png
+        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1661856232/Final%20Procurement/Purchase%20Requisition/Purchase_Requisitions_rh6o5y.png
+            name: Purchase Requisition
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1661856232/Final%20Procurement/Purchase%20Requisition/View_Purchase_Requisitions_vljp56.png
+            name: purchase Request
+            text: none
   - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
     name: Director General
     subItems:
