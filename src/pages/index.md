@@ -11,86 +11,9 @@ scenarios:
         screenshots: https://res.cloudinary.com/papu/image/upload/v1661773604/Final%20Procurement/Admin_Dashboard_lj1pxm.png
         module: Admin Portal
         useCaseSlider:
-          - text: We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and local communities. Check our post or contact us directly for
-              current availability.
-            name: Dashboard
-            img: https://res.cloudinary.com/papu/image/upload/v1661773604/Final%20Procurement/Admin_Dashboard_lj1pxm.png
-          - img: https://res.cloudinary.com/papu/image/upload/v1618826806/icrisat/1PSDSAdmin/1Admin-Portal/2EmailPage_bq5axz.jpg
-            name: Email Page
-            text: We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and
-          - img: https://res.cloudinary.com/papu/image/upload/v1618826806/icrisat/1PSDSAdmin/1Admin-Portal/3ComposeEmail_v6iutl.jpg
-            name: Compose Email
-            text: We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and local communities. Check our post or contact us directly for
-              current availability.
-          - img: https://res.cloudinary.com/papu/image/upload/v1618826806/icrisat/1PSDSAdmin/1Admin-Portal/4EmailPreviewPage_d5yb9k.jpg
-            name: Email Preview
-            text: We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and local communities. Check our post or contact us directly for
-              current availability
-          - img: https://res.cloudinary.com/papu/image/upload/v1618826807/icrisat/1PSDSAdmin/1Admin-Portal/5Kanban_uwnnmx.jpg
-            name: Kanban
-            text: We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and local communities. Check our post or contact us directly for
-              current availability.
-          - img: https://res.cloudinary.com/papu/image/upload/v1618826807/icrisat/1PSDSAdmin/1Admin-Portal/6New_Requisition_mtzn7r.jpg
-            name: New Requisition
-            text: We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and local communities. Check our post or contact us directly for
-              current availability.
-          - img: https://res.cloudinary.com/papu/image/upload/v1618826807/icrisat/1PSDSAdmin/1Admin-Portal/7Requisition_Tracker_dath8b.jpg
-            name: Requisition Tracker
-            text: "We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and local communities. Check "
-          - img: https://res.cloudinary.com/papu/image/upload/v1618826807/icrisat/1PSDSAdmin/1Admin-Portal/8Requisition_Tracker_result_le5ork.jpg
-            name: Requisition Tracker Result
-            text: We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and local communities. Check our post or conta
-          - img: https://res.cloudinary.com/papu/image/upload/v1618826808/icrisat/1PSDSAdmin/1Admin-Portal/9Manage_Requisitions_vcks6t.jpg
-            name: "Manage Requisition "
-            text: We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and local communities. Check our post or contact us directly for
-              current
-          - img: https://res.cloudinary.com/papu/image/upload/v1618826805/icrisat/1PSDSAdmin/1Admin-Portal/10Setup_Committe_ffvqhd.jpg
-            name: Setup committee
-            text: We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and local communities. Check our post or contact us d
-          - img: https://res.cloudinary.com/papu/image/upload/v1618826806/icrisat/1PSDSAdmin/1Admin-Portal/11Members_Portal_yvudpq.jpg
-            name: Members  Portal
-            text: We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and local communities. Check our post or contact us directly for
-              current availability.
-          - img: https://res.cloudinary.com/papu/image/upload/v1618826806/icrisat/1PSDSAdmin/1Admin-Portal/12Selected_Committee_Members_tjpgc8.jpg
-            name: Committee Members
-            text: We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and local communities. Check our post or contact us directly for
-              current availability.
+          - img: https://res.cloudinary.com/papu/image/upload/v1661773604/Final%20Procurement/Admin_Dashboard_lj1pxm.png
+            name: Admin Portal
+            text: none
         logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
       - img: https://res.cloudinary.com/papu/image/upload/v1618826808/icrisat/1PSDSAdmin/2Purchase-Order/1RFP_janjms.jpg
         name: Request
