@@ -43,6 +43,12 @@ scenarios:
             name: Request Timeline
             text: none
         logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+      - img: https://res.cloudinary.com/papu/image/upload/v1661845746/Final%20Procurement/Budget/Budget_cghsnu.png
+        name: Budget
+        link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=3139%3A12644&node-id=3139%3A13606&viewport=236%2C197%2C0.08&scaling=min-zoom&starting-point-node-id=3139%3A13606
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1661845746/Final%20Procurement/Budget/Budget_cghsnu.png
+        module: Budget
+        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
   - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
     name: Director General
     subItems:
