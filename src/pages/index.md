@@ -133,6 +133,25 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1661856828/Final%20Procurement/purchase%20order/View_Purchase_Requisitions_vaqeaj.png
             name: approve purchase order
             text: none
+      - link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=3139%3A12644&node-id=3209%3A23685&viewport=236%2C197%2C0.08&scaling=min-zoom&starting-point-node-id=3209%3A23685
+        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        module: Invoice
+        name: Invoice
+        img: https://res.cloudinary.com/papu/image/upload/v1661858295/Final%20Procurement/invoice/Invoice_Main_ytf5ek.png
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1661858295/Final%20Procurement/invoice/Invoice_Main_ytf5ek.png
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1661858295/Final%20Procurement/invoice/Invoice_Main_ytf5ek.png
+            name: Invoice
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1661858294/Final%20Procurement/invoice/Create_Invoice_l4wh88.png
+            name: Create Invoice
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1661858295/Final%20Procurement/invoice/Add_po_xaprfv.png
+            name: Add Purchase order
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1661858294/Final%20Procurement/invoice/View_Purchase_Requisitions_be0szu.png
+            name: "View Invoice "
+            text: none
   - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
     name: Director General
     subItems:
