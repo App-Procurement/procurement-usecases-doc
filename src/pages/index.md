@@ -5,13 +5,13 @@ scenarios:
   - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
     name: Procurement Admin
     subItems:
-      - img: https://res.cloudinary.com/papu/image/upload/v1661773604/Final%20Procurement/Admin_Dashboard_lj1pxm.png
+      - img: https://res.cloudinary.com/papu/image/upload/v1661773604/Final%20Procurement/Admin%20Dashboard/Admin_Dashboard_lj1pxm.png
         name: Admin Portal
         link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=2082%3A6113&node-id=2082%3A6114&viewport=673%2C234%2C0.08&scaling=min-zoom&starting-point-node-id=2082%3A6114&show-proto-sidebar=1
-        screenshots: https://res.cloudinary.com/papu/image/upload/v1661773604/Final%20Procurement/Admin_Dashboard_lj1pxm.png
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1661773604/Final%20Procurement/Admin%20Dashboard/Admin_Dashboard_lj1pxm.png
         module: Admin Portal
         useCaseSlider:
-          - img: https://res.cloudinary.com/papu/image/upload/v1661773604/Final%20Procurement/Admin_Dashboard_lj1pxm.png
+          - img: https://res.cloudinary.com/papu/image/upload/v1661773604/Final%20Procurement/Admin%20Dashboard/Admin_Dashboard_lj1pxm.png
             name: Admin Portal
             text: none
         logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
