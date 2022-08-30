@@ -88,6 +88,22 @@ scenarios:
           - name: Calendar/Year
             text: none
             img: https://res.cloudinary.com/papu/image/upload/v1661854578/Final%20Procurement/Calendar/year_jtwcn4.jpg
+      - logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        img: https://res.cloudinary.com/papu/image/upload/v1661854927/Final%20Procurement/kanban/Kanban_mrvzdc.png
+        name: Kanban
+        link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=3139%3A12644&node-id=3202%3A21359&viewport=236%2C197%2C0.08&scaling=min-zoom&starting-point-node-id=3202%3A21359
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        module: Kanban
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1661854927/Final%20Procurement/kanban/Kanban_mrvzdc.png
+            name: Kanban
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1661854927/Final%20Procurement/kanban/View_Task_qfjtrw.png
+            name: View Task
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1661854927/Final%20Procurement/kanban/Frame_853_kdlu95.png
+            name: Add Task
+            text: none
   - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
     name: Director General
     subItems:
