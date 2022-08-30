@@ -131,7 +131,7 @@ scenarios:
             name: View Purchase order
             text: none
           - img: https://res.cloudinary.com/papu/image/upload/v1661856828/Final%20Procurement/purchase%20order/View_Purchase_Requisitions_vaqeaj.png
-            name: purchase order
+            name: approve purchase order
             text: none
   - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
     name: Director General
