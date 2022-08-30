@@ -101,6 +101,12 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1661779587/Final%20Procurement/Request_pkjuz3.png
             name: Request
             text: NONE
+          - img: https://res.cloudinary.com/papu/image/upload/v1661779586/Final%20Procurement/Create_New_Request_zass8u.png
+            name: Request overview
+            text: n
+          - img: https://res.cloudinary.com/papu/image/upload/v1661779586/Final%20Procurement/Request_Overview_zsrxrf.png
+            name: Request Timeline
+            text: none
         logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
   - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
     name: Director General
