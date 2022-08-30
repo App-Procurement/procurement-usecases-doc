@@ -16,7 +16,7 @@ scenarios:
             text: none
         logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
       - img: https://res.cloudinary.com/papu/image/upload/v1618826808/icrisat/1PSDSAdmin/2Purchase-Order/1RFP_janjms.jpg
-        name: Request
+        name: Request for proposal
         link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=3139%3A12644&node-id=3139%3A13606&viewport=236%2C197%2C0.08&scaling=min-zoom&starting-point-node-id=3139%3A13606
         screenshots: http://localhost:8888/newdashboard
         module: Request
@@ -44,7 +44,7 @@ scenarios:
             text: none
         logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
       - img: https://res.cloudinary.com/papu/image/upload/v1661845746/Final%20Procurement/Budget/Budget_cghsnu.png
-        name: Budget
+        name: Budget management
         link: https://www.figma.com/file/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?node-id=3172%3A14480
         screenshots: https://res.cloudinary.com/papu/image/upload/v1661845746/Final%20Procurement/Budget/Budget_cghsnu.png
         module: Budget
@@ -90,7 +90,7 @@ scenarios:
             img: https://res.cloudinary.com/papu/image/upload/v1661854578/Final%20Procurement/Calendar/year_jtwcn4.jpg
       - logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
         img: https://res.cloudinary.com/papu/image/upload/v1661854927/Final%20Procurement/kanban/Kanban_mrvzdc.png
-        name: Kanban
+        name: Kanban board
         link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=3139%3A12644&node-id=3202%3A21359&viewport=236%2C197%2C0.08&scaling=min-zoom&starting-point-node-id=3202%3A21359
         screenshots: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
         module: Kanban
@@ -136,7 +136,7 @@ scenarios:
       - link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=3139%3A12644&node-id=3209%3A23685&viewport=236%2C197%2C0.08&scaling=min-zoom&starting-point-node-id=3209%3A23685
         logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
         module: Invoice
-        name: Invoice
+        name: Invoice management
         img: https://res.cloudinary.com/papu/image/upload/v1661858295/Final%20Procurement/invoice/Invoice_Main_ytf5ek.png
         screenshots: https://res.cloudinary.com/papu/image/upload/v1661858295/Final%20Procurement/invoice/Invoice_Main_ytf5ek.png
         useCaseSlider:
@@ -151,6 +151,31 @@ scenarios:
             text: none
           - img: https://res.cloudinary.com/papu/image/upload/v1661858294/Final%20Procurement/invoice/View_Purchase_Requisitions_be0szu.png
             name: "View Invoice "
+            text: none
+      - link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=3139%3A12644&node-id=3217%3A24367&viewport=321%2C209%2C0.06&scaling=min-zoom&starting-point-node-id=3217%3A24367
+        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        module: Supplier Management
+        name: Supplier Management
+        img: https://res.cloudinary.com/papu/image/upload/v1661859373/Final%20Procurement/Supplier/Supplier_r3lkgx.png
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1661859373/Final%20Procurement/Supplier/Supplier_r3lkgx.png
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1661859373/Final%20Procurement/Supplier/Supplier_r3lkgx.png
+            name: Supplier Risk
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1661859373/Final%20Procurement/Supplier/Active_Supplier_nkwnwx.png
+            name: Active Supplier
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1661859373/Final%20Procurement/Supplier/Add_Supplier_lvnk6g.png
+            name: Add Supplier
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1661859373/Final%20Procurement/Supplier/Added_Supplier_os5bis.png
+            name: Added Supplier
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1661859373/Final%20Procurement/Supplier/update_Supplier_vn1mn9.png
+            name: Update supplier
+            text: none
+          - name: Import Supplier
+            img: https://res.cloudinary.com/papu/image/upload/v1661859373/Final%20Procurement/Supplier/Import_Supplier_yu8qs9.png
             text: none
   - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
     name: Director General
