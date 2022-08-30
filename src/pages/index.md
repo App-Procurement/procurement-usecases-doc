@@ -196,6 +196,25 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1661860361/Final%20Procurement/product%20management/Update_product_gz868n.png
             name: Update Product
             text: none
+      - name: Setting
+        link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=3139%3A12644&node-id=3230%3A26521&viewport=196%2C-16%2C0.1&scaling=min-zoom&starting-point-node-id=3230%3A26521
+        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        module: Setting
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1661864085/Final%20Procurement/Setting/Setting_kj86fz.png
+        img: https://res.cloudinary.com/papu/image/upload/v1661864085/Final%20Procurement/Setting/Setting_kj86fz.png
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1661864086/Final%20Procurement/Setting/Prohibited_vfmthy.png
+            name: RBAC
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1661864084/Final%20Procurement/Setting/Roles-1_dcnei8.png
+            name: RBAC
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1661864085/Final%20Procurement/Setting/Group_sbxpl6.png
+            name: Roles
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1661864085/Final%20Procurement/Setting/Users_f5qkaf.png
+            name: users
+            text: none
   - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
     name: Director General
     subItems:
