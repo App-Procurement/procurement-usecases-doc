@@ -53,6 +53,22 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1661845746/Final%20Procurement/Budget/Budget_cghsnu.png
             name: Budget
             text: none
+      - img: https://res.cloudinary.com/papu/image/upload/v1661853279/Final%20Procurement/message/main_fmwej6.png
+        name: Message
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1661853279/Final%20Procurement/message/main_fmwej6.png
+        module: Message
+        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=3139%3A12644&node-id=3195%3A15292&viewport=236%2C197%2C0.08&scaling=min-zoom&starting-point-node-id=3195%3A15292
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1661853279/Final%20Procurement/message/main_fmwej6.png
+            name: Message Maiin
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1661853274/Final%20Procurement/message/File_mvhjtk.png
+            name: Message File
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1661853276/Final%20Procurement/message/Links_jbexzs.png
+            name: Message Link
+            text: none
   - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
     name: Director General
     subItems:
