@@ -69,6 +69,25 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1661853276/Final%20Procurement/message/Links_jbexzs.png
             name: Message Link
             text: none
+      - name: Calendar
+        link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=3139%3A12644&node-id=3139%3A12644&viewport=236%2C197%2C0.08&scaling=min-zoom&starting-point-node-id=3199%3A18688
+        module: Calendar
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1661854578/Final%20Procurement/Calendar/day_qno3y1.jpg
+        img: https://res.cloudinary.com/papu/image/upload/v1661854578/Final%20Procurement/Calendar/day_qno3y1.jpg
+        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1661854578/Final%20Procurement/Calendar/day_qno3y1.jpg
+            name: Calendar/Day
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1661854578/Final%20Procurement/Calendar/week_sfmntu.jpg
+            name: Calendar/week
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1661854578/Final%20Procurement/Calendar/month_uis4vw.jpg
+            name: Calendar/month
+            text: none
+          - name: Calendar/Year
+            text: none
+            img: https://res.cloudinary.com/papu/image/upload/v1661854578/Final%20Procurement/Calendar/year_jtwcn4.jpg
   - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
     name: Director General
     subItems:
