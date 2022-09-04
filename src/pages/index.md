@@ -301,78 +301,79 @@ scenarios:
           - name: Invoice
             img: https://res.cloudinary.com/papu/image/upload/v1662314252/Final%20Procurement/Supplier%20Portal/Purchase%20order/Full_Invoice_ewhljz.png
             text: none
+      - link: https://www.figma.com/proto/clBAunMM7ac8NfpQVAUOhK/Ghouse?page-id=0%3A1&node-id=302%3A3336&viewport=-4819%2C5842%2C0.42&scaling=scale-down&starting-point-node-id=302%3A3336&show-proto-sidebar=1
+        img: https://res.cloudinary.com/papu/image/upload/v1662314287/Final%20Procurement/Supplier%20Portal/Invoice/Invoices_vsd6fv.png
+        name: Invoice
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1662314287/Final%20Procurement/Supplier%20Portal/Invoice/Invoices_vsd6fv.png
+        module: Invoice Dashboard
+        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1662314287/Final%20Procurement/Supplier%20Portal/Invoice/Invoices_vsd6fv.png
+            name: Invoice
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662314287/Final%20Procurement/Supplier%20Portal/Invoice/Unclear_itgtym.png
+            name: Unclear Invoice
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662314287/Final%20Procurement/Supplier%20Portal/Invoice/Settled_jcim1v.png
+            name: Settled Invoice
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662314287/Final%20Procurement/Supplier%20Portal/Invoice/Partial_Invoice_b7pn1i.png
+            name: Partial Invoice
+            text: None
+      - img: https://res.cloudinary.com/papu/image/upload/v1662314959/Final%20Procurement/Supplier%20Portal/payments/Payment_jdathk.png
+        name: Payment Dashboard
+        link: https://www.figma.com/proto/clBAunMM7ac8NfpQVAUOhK/Ghouse?page-id=0%3A1&node-id=288%3A2350&viewport=-4819%2C5842%2C0.42&scaling=scale-down&starting-point-node-id=288%3A2350&show-proto-sidebar=1
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1662314959/Final%20Procurement/Supplier%20Portal/payments/Payment_jdathk.png
+        module: Payments
+        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1662314959/Final%20Procurement/Supplier%20Portal/payments/Payment_jdathk.png
+            name: Payment
+            text: None
+      - img: https://res.cloudinary.com/papu/image/upload/v1662314327/Final%20Procurement/Supplier%20Portal/Delivery/Delivery_svru4u.png
+        name: Delivery
+        link: https://www.figma.com/proto/clBAunMM7ac8NfpQVAUOhK/Ghouse?page-id=0%3A1&node-id=794%3A7042&viewport=-4819%2C5842%2C0.42&scaling=scale-down&starting-point-node-id=794%3A7042&show-proto-sidebar=1
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1662314327/Final%20Procurement/Supplier%20Portal/Delivery/Delivery_svru4u.png
+        module: Delivery
+        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1662314327/Final%20Procurement/Supplier%20Portal/Delivery/Delivery_svru4u.png
+            name: Delivery
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662314326/Final%20Procurement/Supplier%20Portal/Delivery/Total_Parcels_vwm70c.png
+            name: Delivery
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662314326/Final%20Procurement/Supplier%20Portal/Delivery/Add_Delivery_Partner_igbzom.png
+            name: Delivery
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662314326/Final%20Procurement/Supplier%20Portal/Delivery/Add_Delivery_Partner_igbzom.png
+            name: Delivery
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662314326/Final%20Procurement/Supplier%20Portal/Delivery/Delivery_status_q1nzcw.png
+            name: Delivery
+            text: None
+      - img: https://res.cloudinary.com/papu/image/upload/v1662314366/Final%20Procurement/Supplier%20Portal/Catalog/Catalog_djlnow.png
+        name: Catalog
+        link: https://www.figma.com/proto/clBAunMM7ac8NfpQVAUOhK/Ghouse?page-id=0%3A1&node-id=180%3A6405&viewport=-4819%2C5842%2C0.42&scaling=scale-down&starting-point-node-id=180%3A6405&show-proto-sidebar=1
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1662314366/Final%20Procurement/Supplier%20Portal/Catalog/Catalog_djlnow.png
+        module: Catalog
+        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        useCaseSlider:
+          - img: Catalog
+            name: https://res.cloudinary.com/papu/image/upload/v1662314366/Final%20Procurement/Supplier%20Portal/Catalog/Catalog_djlnow.png
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662314366/Final%20Procurement/Supplier%20Portal/Catalog/Catalog_Listing_l1pbhu.png
+            name: Catalog
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662314366/Final%20Procurement/Supplier%20Portal/Catalog/Edit_Catalog_Listing_dheae5.png
+            name: Catalog
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662314366/Final%20Procurement/Supplier%20Portal/Catalog/Import_Items_dk7pyl.png
+            name: Catalog
+            text: None
   - img: https://res.cloudinary.com/papu/image/upload/v1618832657/icrisat/6Bidding/Bidding_kc40mh.svg
     name: Approver
-    subItems:
-      - img: https://res.cloudinary.com/papu/image/upload/v1618827028/icrisat/6Bidding/Bidding-Portal/1Tender_Dashboard_njq0pe.jpg
-        name: Portal
-        link: http://localhost:8888/newdashboard
-        screenshots: http://localhost:8888/newdashboard
-        module: test12
-        useCaseSlider:
-          - img: https://res.cloudinary.com/papu/image/upload/v1618827028/icrisat/6Bidding/Bidding-Portal/1Tender_Dashboard_njq0pe.jpg
-            name: Tender Dashboard
-            text: We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and local communities. Check our post or contact us directly for
-              current availability.
-          - img: https://res.cloudinary.com/papu/image/upload/v1618827028/icrisat/6Bidding/Bidding-Portal/2Tender_Details_a1p8uz.jpg
-            name: Tender Details
-            text: We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and local communities. Check our post or contact us directly for
-              current availability.
-          - img: https://res.cloudinary.com/papu/image/upload/v1618827028/icrisat/6Bidding/Bidding-Portal/3Corrigendum_mytf4v.jpg
-            name: Corrigendum
-            text: We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and local communities. Check our post or contact us directly for
-              current availability.
-          - img: https://res.cloudinary.com/papu/image/upload/v1618827028/icrisat/6Bidding/Bidding-Portal/4Search_ohnnbi.jpg
-            name: Search
-            text: We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and local communities. Check our post or contact us directly for
-              current availability.
-          - img: https://res.cloudinary.com/papu/image/upload/v1618827028/icrisat/6Bidding/Bidding-Portal/5Classification_roufpx.jpg
-            name: Classification
-            text: We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and local communities. Check our post or contact us directly for
-              current availability.
-          - img: https://res.cloudinary.com/papu/image/upload/v1618827028/icrisat/6Bidding/Bidding-Portal/6Cancelled-Retendered_bod8z9.jpg
-            name: Canceled Retendered
-            text: We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and local communitie
-          - img: https://res.cloudinary.com/papu/image/upload/v1618827028/icrisat/6Bidding/Bidding-Portal/7Tender_Archive_lkf5ud.jpg
-            name: Tender Archive
-            text: We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and local communities. Check our post or contact us directly for
-              current availability.
-          - img: https://res.cloudinary.com/papu/image/upload/v1618827030/icrisat/6Bidding/Bidding-Portal/8Tender_Status_d8uhvs.jpg
-            name: Tender Status
-            text: We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and local communities. Check our post or contact us directly for
-              current availability.
-          - img: https://res.cloudinary.com/papu/image/upload/v1618827029/icrisat/6Bidding/Bidding-Portal/9Bidder_Enrollment_jo4fui.jpg
-            name: Bidder Environment
-            text: We sell green and roasted coffee beans that are sourced directly from
-              independent farmers and farm cooperatives. We’re proud to offer a
-              variety of coffee beans grown with great care for the environment
-              and local communities. Check our post or contact us directly for
-              current availability.
-        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+    subItems: []
 slider:
   - img: https://res.cloudinary.com/papu/image/upload/v1618134269/6Bidding/4Bidder-Enrollemnet/Bidder_Enrollment_2_gk51fg.jpg
     name: Slider 1
