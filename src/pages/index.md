@@ -282,6 +282,25 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1662313766/Final%20Procurement/Supplier%20Portal/Dashboard/Supplier_Dashboard_jzlk9u.png
             name: Dashboard
             text: None
+      - img: https://res.cloudinary.com/papu/image/upload/v1662314252/Final%20Procurement/Supplier%20Portal/Purchase%20order/Purchase_Order_dirkvx.png
+        name: Purchase order
+        link: https://www.figma.com/proto/clBAunMM7ac8NfpQVAUOhK/Ghouse?page-id=0%3A1&node-id=167%3A5002&viewport=-4819%2C5842%2C0.42&scaling=scale-down&starting-point-node-id=167%3A5002&show-proto-sidebar=1
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1662314252/Final%20Procurement/Supplier%20Portal/Purchase%20order/Purchase_Order_dirkvx.png
+        module: Purchase order
+        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+            name: Purchase order
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1662314252/Final%20Procurement/Supplier%20Portal/Purchase%20order/Confirm_Purchase_Order_View_Details_fyjamp.png
+            name: Confirm purchase order
+            text: none
+          - name: Revise Purchase order
+            img: https://res.cloudinary.com/papu/image/upload/v1662314252/Final%20Procurement/Supplier%20Portal/Purchase%20order/Revised_Purchase_Order_eo1i0z.png
+            text: none
+          - name: Invoice
+            img: https://res.cloudinary.com/papu/image/upload/v1662314252/Final%20Procurement/Supplier%20Portal/Purchase%20order/Full_Invoice_ewhljz.png
+            text: none
   - img: https://res.cloudinary.com/papu/image/upload/v1618832657/icrisat/6Bidding/Bidding_kc40mh.svg
     name: Approver
     subItems:
