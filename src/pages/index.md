@@ -384,5 +384,11 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
             name: test
             text: sdfa sdfasdf
-slider: []
+slider:
+  - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
+    name: tst
+    text: test
+    moreDetails:
+      moreDetailsName: test
+      moreDetailsText: sdfsf
 ---
