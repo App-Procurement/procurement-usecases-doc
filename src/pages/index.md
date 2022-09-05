@@ -373,16 +373,5 @@ scenarios:
             text: None
   - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
     name: Approver
-    subItems:
-      - img: https://res.cloudinary.com/papu/image/upload/v1662319404/Final%20Procurement/Approver/Request/Request_uibqlk.png
-        name: Request
-        link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=2019%3A5051&node-id=3434%3A13570&viewport=1507%2C93%2C0.45&scaling=min-zoom&starting-point-node-id=3434%3A13570&show-proto-sidebar=1
-        screenshots: https://res.cloudinary.com/papu/image/upload/v1662319404/Final%20Procurement/Approver/Request/Request_uibqlk.png
-        module: Request
-        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
-        useCaseSlider:
-          - img: https://res.cloudinary.com/papu/image/upload/v1662319404/Final%20Procurement/Approver/Request/Request_uibqlk.png
-            name: Request
-            text: None
 slider: []
 ---
