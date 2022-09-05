@@ -359,8 +359,8 @@ scenarios:
         module: Catalog
         logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
         useCaseSlider:
-          - img: Catalog
-            name: https://res.cloudinary.com/papu/image/upload/v1662370936/Final%20Procurement/Supplier%20Portal/Catalog/Catalog_b3lvjx.png
+          - img: https://res.cloudinary.com/papu/image/upload/v1662370936/Final%20Procurement/Supplier%20Portal/Catalog/Catalog_b3lvjx.png
+            name: Catalog
             text: None
           - img: https://res.cloudinary.com/papu/image/upload/v1662314366/Final%20Procurement/Supplier%20Portal/Catalog/Catalog_Listing_l1pbhu.png
             name: Catalog
