@@ -15,33 +15,33 @@ scenarios:
             name: Admin Portal
             text: none
         logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
-      - img: https://res.cloudinary.com/papu/image/upload/v1618826808/icrisat/1PSDSAdmin/2Purchase-Order/1RFP_janjms.jpg
+      - img: https://res.cloudinary.com/papu/image/upload/v1661779587/Final%20Procurement/Request%20/Request_pkjuz3.png
         name: Request for proposal
         link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=3139%3A12644&node-id=3139%3A13606&viewport=236%2C197%2C0.08&scaling=min-zoom&starting-point-node-id=3139%3A13606
         screenshots: http://localhost:8888/newdashboard
         module: Request
         useCaseSlider:
-          - img: https://res.cloudinary.com/papu/image/upload/v1661779587/Final%20Procurement/Request_pkjuz3.png
-            name: Request
-            text: NONE
-          - img: https://res.cloudinary.com/papu/image/upload/v1661779586/Final%20Procurement/Create_New_Request_zass8u.png
-            name: Request overview
-            text: n
-          - img: https://res.cloudinary.com/papu/image/upload/v1661779586/Final%20Procurement/Request_Overview_zsrxrf.png
-            name: Request Timeline
-            text: none
-          - img: https://res.cloudinary.com/papu/image/upload/v1661779587/Final%20Procurement/Attachments_izgw5c.png
-            name: Request Timeline
-            text: none
-          - img: https://res.cloudinary.com/papu/image/upload/v1661779586/Final%20Procurement/Comments_h3xvvc.png
+          - img: https://res.cloudinary.com/papu/image/upload/v1661779587/Final%20Procurement/Request%20/Request_pkjuz3.png
+            name: "Request "
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1661779586/Final%20Procurement/Request%20/Create_New_Request_zass8u.png
+            name: Create Request
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1661779586/Final%20Procurement/Request%20/Request_Overview_zsrxrf.png
             name: Request Timeline
             text: None
-          - img: https://res.cloudinary.com/papu/image/upload/v1661779587/Final%20Procurement/Supplier_Info_glyxvj.png
+          - img: https://res.cloudinary.com/papu/image/upload/v1661779587/Final%20Procurement/Request%20/Attachments_izgw5c.png
             name: Request Timeline
-            text: none
-          - img: https://res.cloudinary.com/papu/image/upload/v1661779587/Final%20Procurement/Activity_Logs_rkl3r3.png
-            name: Request Timeline
-            text: none
+            text: None
+          - name: Request Timeline
+            img: https://res.cloudinary.com/papu/image/upload/v1661779586/Final%20Procurement/Request%20/Comments_h3xvvc.png
+            text: None
+          - name: Request Timeline
+            img: https://res.cloudinary.com/papu/image/upload/v1661779587/Final%20Procurement/Request%20/Supplier_Info_glyxvj.png
+            text: None
+          - name: Request Timeline
+            img: https://res.cloudinary.com/papu/image/upload/v1661779587/Final%20Procurement/Request%20/Activity_Logs_rkl3r3.png
+            text: NOne
         logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
       - img: https://res.cloudinary.com/papu/image/upload/v1661845746/Final%20Procurement/Budget/Budget_cghsnu.png
         name: Budget management
@@ -399,8 +399,85 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1662319403/Final%20Procurement/Approver/Request/Comments_y0nfh2.png
             name: Request Timeline
             text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662319404/Final%20Procurement/Approver/Request/Supplier_Info_qfg9c4.png
+            name: Request Timeline
+            text: None
           - img: https://res.cloudinary.com/papu/image/upload/v1662319403/Final%20Procurement/Approver/Request/Activity_Logs_pgqm0a.png
             name: Request Timeline
+            text: None
+      - img: https://res.cloudinary.com/papu/image/upload/v1662319454/Final%20Procurement/Approver/Message/main_z27ggp.png
+        name: Message
+        link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=2019%3A5051&node-id=3434%3A15051&viewport=1507%2C93%2C0.45&scaling=min-zoom&starting-point-node-id=3434%3A15051&show-proto-sidebar=1
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1662319454/Final%20Procurement/Approver/Message/main_z27ggp.png
+        module: Message
+        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1662319454/Final%20Procurement/Approver/Message/main_z27ggp.png
+            name: Message
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662319445/Final%20Procurement/Approver/Message/File_bc6gu9.png
+            name: Message
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662319453/Final%20Procurement/Approver/Message/Links_vhmxen.png
+            name: Message
+            text: None
+      - img: https://res.cloudinary.com/papu/image/upload/v1662319480/Final%20Procurement/Approver/Kanban/Kanban_hxthms.png
+        name: Kanban
+        link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=2019%3A5051&node-id=3434%3A15803&viewport=1507%2C93%2C0.45&scaling=min-zoom&starting-point-node-id=3434%3A15803&show-proto-sidebar=1
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1662319480/Final%20Procurement/Approver/Kanban/Kanban_hxthms.png
+        module: Kanban
+        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1662319480/Final%20Procurement/Approver/Kanban/Kanban_hxthms.png
+            name: Kanban
+            text: None
+      - img: https://res.cloudinary.com/papu/image/upload/v1662319563/Final%20Procurement/Approver/Calendar/day_cv5k0q.jpg
+        name: Calendar
+        link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=2019%3A5051&node-id=3434%3A18738&viewport=579%2C-62%2C0.05&scaling=min-zoom&starting-point-node-id=3434%3A18738&show-proto-sidebar=1
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1662319563/Final%20Procurement/Approver/Calendar/day_cv5k0q.jpg
+        module: Calendar
+        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1662319563/Final%20Procurement/Approver/Calendar/day_cv5k0q.jpg
+            name: Calendar
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662319556/Final%20Procurement/Approver/Calendar/week_g3k8bb.jpg
+            name: Calendar
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662319556/Final%20Procurement/Approver/Calendar/month_r0fdwo.jpg
+            name: Calendar
+            text: NOne
+          - img: https://res.cloudinary.com/papu/image/upload/v1662319559/Final%20Procurement/Approver/Calendar/year_beg3v3.jpg
+            name: Calendar
+            text: None
+      - img: https://res.cloudinary.com/papu/image/upload/v1662319499/Final%20Procurement/Approver/Purchase%20Requisition/Purchase_Requisitions_bq11hz.png
+        name: Purchase Requisition
+        link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=2019%3A5051&node-id=3434%3A17335&viewport=579%2C-62%2C0.05&scaling=min-zoom&starting-point-node-id=3434%3A17335
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1662319499/Final%20Procurement/Approver/Purchase%20Requisition/Purchase_Requisitions_bq11hz.png
+        module: Purchase Requisition
+        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1662319499/Final%20Procurement/Approver/Purchase%20Requisition/Purchase_Requisitions_bq11hz.png
+            name: Purchase Requisition
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662319499/Final%20Procurement/Approver/Purchase%20Requisition/View_Purchase_Requisitions_hrk6rf.png
+            name: Purchase Requisition
+            text: None
+      - img: https://res.cloudinary.com/papu/image/upload/v1662319534/Final%20Procurement/Approver/Purchase%20order/Purchase_Order_cpzqcd.png
+        name: Purchase order
+        link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=2019%3A5051&node-id=3434%3A18105&viewport=579%2C-62%2C0.05&scaling=min-zoom&starting-point-node-id=3434%3A18105&show-proto-sidebar=1
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1662319534/Final%20Procurement/Approver/Purchase%20order/Purchase_Order_cpzqcd.png
+        module: Purchase order
+        logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1662319534/Final%20Procurement/Approver/Purchase%20order/Purchase_Order_cpzqcd.png
+            name: Purchase order
+            text: none
+          - img: https://res.cloudinary.com/papu/image/upload/v1662319534/Final%20Procurement/Approver/Purchase%20order/Veiw_Purchase_Order_ddjy1r.png
+            name: Purchase order
+            text: None
+          - name: Purchase order
+            img: https://res.cloudinary.com/papu/image/upload/v1662319535/Final%20Procurement/Approver/Purchase%20order/View_Purchase_Requisitions_ck7f2m.png
             text: None
 slider:
   - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
