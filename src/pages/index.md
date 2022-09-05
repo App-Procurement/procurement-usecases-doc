@@ -352,7 +352,7 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1662314326/Final%20Procurement/Supplier%20Portal/Delivery/Delivery_status_q1nzcw.png
             name: Delivery
             text: None
-      - img: https://res.cloudinary.com/papu/image/upload/v1662314366/Final%20Procurement/Supplier%20Portal/Catalog/Catalog_djlnow.png
+      - img: https://res.cloudinary.com/papu/image/upload/v1662370936/Final%20Procurement/Supplier%20Portal/Catalog/Catalog_b3lvjx.png
         name: Catalog
         link: https://www.figma.com/proto/clBAunMM7ac8NfpQVAUOhK/Ghouse?page-id=0%3A1&node-id=180%3A6405&viewport=-4819%2C5842%2C0.42&scaling=scale-down&starting-point-node-id=180%3A6405&show-proto-sidebar=1
         screenshots: https://res.cloudinary.com/papu/image/upload/v1662314366/Final%20Procurement/Supplier%20Portal/Catalog/Catalog_djlnow.png
@@ -360,7 +360,7 @@ scenarios:
         logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
         useCaseSlider:
           - img: Catalog
-            name: https://res.cloudinary.com/papu/image/upload/v1662314366/Final%20Procurement/Supplier%20Portal/Catalog/Catalog_djlnow.png
+            name: https://res.cloudinary.com/papu/image/upload/v1662370936/Final%20Procurement/Supplier%20Portal/Catalog/Catalog_b3lvjx.png
             text: None
           - img: https://res.cloudinary.com/papu/image/upload/v1662314366/Final%20Procurement/Supplier%20Portal/Catalog/Catalog_Listing_l1pbhu.png
             name: Catalog
