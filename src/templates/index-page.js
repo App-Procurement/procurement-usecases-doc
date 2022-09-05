@@ -90,7 +90,7 @@ export const IndexPageTemplate = ({ scenarios, slider }) => {
 								<h2>Procurement Admin</h2>
 								<button onClick={openModal} type="button" class="btn btn-light modules-btn">Modules</button>
 							</div>
-							<Carousel className="slider-section"
+							{/* <Carousel className="slider-section"
 								wrapAround={true}
 								autoplayInterval={1000}
 								autoplay={false}
@@ -102,38 +102,41 @@ export const IndexPageTemplate = ({ scenarios, slider }) => {
 								renderCenterRightControls={({ nextSlide }) => (
 									<button onClick={nextSlide}>Next</button>
 								)}
-							>
-								{selectedScenario.subItems.map((item) => {
-									if (!item.isChecked) {
-										return (
-											<div key={v4()}>
-												<div
-													className="item"
-
-												>
-													<div className="name">{item.name}</div>
-													<div className="image" onClick={() => {
-														onClickUseCase(item);
-													}}>
-														<img
-															src={item.img}
-															alt={item.name}
-															title={item.name}
-														/>
-													</div>
-													<div className="product-links">
-														<div className="name"><a target="_blank" href={item.link}>Prototype</a></div>
-														<div className="name"> <a href='#' style={{cursor: 'pointer'}} onClick={() => {
+							> */}
+							<div className="slider-section">
+								<div className='row'>
+									{selectedScenario.subItems.map((item) => {
+										if (!item.isChecked) {
+											return (
+												<div className='col-md-4 col-sm-12' key={v4()}>
+													<div
+														className="item"
+													>
+														<div className="name">{item.name}</div>
+														<div className="image" onClick={() => {
 															onClickUseCase(item);
-														}}>Screenshots</a></div>
+														}}>
+															<img
+																src={item.img}
+																alt={item.name}
+																title={item.name}
+															/>
+														</div>
+														<div className="product-links">
+															<div className="name"><a target="_blank" href={item.link}>Prototype</a></div>
+															<div className="name"> <a href='#' style={{ cursor: 'pointer' }} onClick={() => {
+																onClickUseCase(item);
+															}}>Screenshots</a></div>
+														</div>
 													</div>
 												</div>
-											</div>
-										)
+											)
+										}
 									}
-								}
-								)}
-							</Carousel>
+									)}
+								</div>
+							</div>
+							{/* className="slider-section" */}
 
 							{/* <ul>
 								{selectedScenario.subItems.map((item) => {
