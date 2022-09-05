@@ -289,7 +289,7 @@ scenarios:
         module: Purchase order
         logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
         useCaseSlider:
-          - img: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
+          - img: https://res.cloudinary.com/papu/image/upload/v1662314252/Final%20Procurement/Supplier%20Portal/Purchase%20order/Purchase_Order_dirkvx.png
             name: Purchase order
             text: none
           - img: https://res.cloudinary.com/papu/image/upload/v1662314252/Final%20Procurement/Supplier%20Portal/Purchase%20order/Confirm_Purchase_Order_View_Details_fyjamp.png
