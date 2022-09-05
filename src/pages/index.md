@@ -374,16 +374,34 @@ scenarios:
   - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
     name: Approver
     subItems:
-      - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
+      - img: https://res.cloudinary.com/papu/image/upload/v1662319404/Final%20Procurement/Approver/Request/Request_uibqlk.png
         name: "Request "
         logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
         module: Request
-        screenshots: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1662319404/Final%20Procurement/Approver/Request/Request_uibqlk.png
         link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=2019%3A5051&node-id=3434%3A13570&viewport=1507%2C93%2C0.45&scaling=min-zoom&starting-point-node-id=3434%3A13570&show-proto-sidebar=1
         useCaseSlider:
-          - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
-            name: test
-            text: sdfa sdfasdf
+          - img: https://res.cloudinary.com/papu/image/upload/v1662319404/Final%20Procurement/Approver/Request/Request_uibqlk.png
+            name: "Request "
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662319404/Final%20Procurement/Approver/Request/Create_New_Request_tbcnqf.png
+            name: Create new Request
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662319403/Final%20Procurement/Approver/Request/catalogs_avjj8e.png
+            name: Add products
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662319404/Final%20Procurement/Approver/Request/Request_Overview_mpoq4d.png
+            name: Request Timeline
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662319403/Final%20Procurement/Approver/Request/Attachments_ajgw2b.png
+            name: Request Timeline
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662319403/Final%20Procurement/Approver/Request/Comments_y0nfh2.png
+            name: Request Timeline
+            text: None
+          - img: https://res.cloudinary.com/papu/image/upload/v1662319403/Final%20Procurement/Approver/Request/Activity_Logs_pgqm0a.png
+            name: Request Timeline
+            text: None
 slider:
   - img: https://res.cloudinary.com/papu/image/upload/v1618828004/icrisat/2General-Director/Director_General_cbam6k.svg
     name: tst
