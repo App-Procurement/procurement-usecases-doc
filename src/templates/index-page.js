@@ -221,11 +221,11 @@ export const IndexPageTemplate = ({ scenarios, slider }) => {
 				retData.push(
 					<div className="col-md-4">
 						<div className="form-check module-chack-box">
-							<input className="form-check-input" checked={!data.isChecked} onChange={(e) => setSelectedUser(e, i, data.module)} type="checkbox" id="flexCheckDefault" />
+							<input className="form-check-input" checked={!data.isChecked} onChange={(e) => setSelectedUser(e, i, data.module)} type="checkbox" id={`${i}_flexCheckDefault`} />
 							<div className="module-user-profile">
 								<img src={data.logo} alt={data.logo} />
 							</div>
-							<label  className="form-check-label" >
+							<label key={i} className="form-check-label"  htmlFor={`${i}_flexCheckDefault`}>
 								{data.module}
 							</label>
 						</div>
