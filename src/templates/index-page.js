@@ -207,7 +207,7 @@ export const IndexPageTemplate = ({ scenarios, slider }) => {
 	function clearAllFilter() {
 		if (selectedScenario.subItems && selectedScenario.subItems.length > 0) {
 			for (let i = 0; i < selectedScenario.subItems.length; i++) {
-				selectedScenario.subItems[i].isChecked = false;
+				selectedScenario.subItems[i].isChecked = true;
 			}
 		}
 		setSelectedScenario({ ...selectedScenario, selectedScenario });
