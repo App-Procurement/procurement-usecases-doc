@@ -225,7 +225,7 @@ export const IndexPageTemplate = ({ scenarios, slider }) => {
 							<div className="module-user-profile">
 								<img src={data.logo} alt={data.logo} />
 							</div>
-							<label className="form-check-label" htmlFor="flexCheckDefault">
+							<label  className="form-check-label" >
 								{data.module}
 							</label>
 						</div>
