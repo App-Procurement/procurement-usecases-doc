@@ -13,26 +13,36 @@ import '../css/home.css';
 import '../css/service.css';
 import '../css/tabs.css';
 import Modal from 'react-modal';
-import Carousel from 'nuka-carousel';
 
 export const IndexPageTemplate = ({ scenarios, slider }) => {
 	const [showSelectScenario, setShowSelectScenario] = useState(false);
 	const [showUseCase, setShowUseCase] = useState(false);
 	const [useCase, setUseCase] = useState(null);
 	const [selectedScenario, setSelectedScenario] = useState(scenarios[0]);
-	const [modalIsOpen, setIsOpen] = React.useState(false);
-	// const [ showForm, setShowForm ] = useState(false);
-	// const [ showReg, setShowReg ] = useState(false);
+	const [modalIsOpen, setIsOpen] = useState(false);
+	const[searchKey, setSearchKey]= useState("")
 
-	// function onClickSelectScenario() {
-	// 	setShowSelectScenario(true);
-	// }
-
-	// function onClickSelectScenarioClose() {
-	// 	// setShowSelectScenario(false);
-	// 	setSelectedScenario(null);
-	// }
-
+    function handleFillterModules(e){
+     const {value}=e.target
+	 if ( value !==""){
+		for(let i =0 ; i<selectedScenario.subItems.length; i++){
+			if (selectedScenario.subItems[i].name.toLowerCase().indexOf(value.toLowerCase())!==-1){
+				selectedScenario.subItems[i]["isHidden"]= false
+			}
+			else{
+				selectedScenario.subItems[i]["isHidden"]= true
+			}
+		}
+	 }
+	 else{
+		for(let i =0 ; i<selectedScenario.subItems.length; i++){
+				selectedScenario.subItems[i]["isHidden"]= false
+			
+		}
+	 }
+	 setSelectedScenario({ ...selectedScenario});
+	 }
+	
 	function onClickUseCase(uc) {
 		if (uc.useCaseSlider) {
 			setUseCase(uc);
@@ -50,8 +60,6 @@ export const IndexPageTemplate = ({ scenarios, slider }) => {
 		setSelectedScenario(scenario);
 	}
 
-
-
 	function selectScenario() {
 		return (
 			<div className="select-scenario-left">
@@ -64,7 +72,7 @@ export const IndexPageTemplate = ({ scenarios, slider }) => {
 							{scenarios.map((scenario) => (
 								<li key={v4()}>
 									<div
-										className={`item ${selectedScenario === scenario ? 'active' : ''}`}
+										className={`item ${selectedScenario.name === scenario.name ? 'active' : ''}`}
 										onClick={() => onClickSubSelectScenario(scenario)}
 									>
 										<div className="image">
@@ -87,7 +95,7 @@ export const IndexPageTemplate = ({ scenarios, slider }) => {
 					{selectedScenario && (
 						<div className="dashboard-sub-scenario-container">
 							<div className="sub-scenario-heading">
-								<h2>Procurement Admin</h2>
+								<h2>{selectedScenario.name}</h2>
 								<button onClick={openModal} type="button" class="btn btn-light modules-btn">Modules</button>
 							</div>
 							{/* <Carousel className="slider-section"
@@ -106,7 +114,7 @@ export const IndexPageTemplate = ({ scenarios, slider }) => {
 							<div className="slider-section">
 								<div className='row'>
 									{selectedScenario.subItems.map((item) => {
-										if (!item.isChecked) {
+										if (!item.isChecked && !item.isHidden ) {
 											return (
 												<div className='col-md-4 col-sm-12' key={v4()}>
 													<div
@@ -249,6 +257,7 @@ export const IndexPageTemplate = ({ scenarios, slider }) => {
 									name=''
 									id='search-home'
 									placeholder='Search Here...'
+									onChange={(e)=>handleFillterModules(e)}
 								/>
 								<i class="far fa-search"></i>
 							</div>
