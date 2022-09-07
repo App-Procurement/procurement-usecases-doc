@@ -20,29 +20,29 @@ export const IndexPageTemplate = ({ scenarios, slider }) => {
 	const [useCase, setUseCase] = useState(null);
 	const [selectedScenario, setSelectedScenario] = useState(scenarios[0]);
 	const [modalIsOpen, setIsOpen] = useState(false);
-	const[searchKey, setSearchKey]= useState("")
+	const [searchKey, setSearchKey] = useState("")
 
-    function handleFillterModules(e){
-     const {value}=e.target
-	 if ( value !==""){
-		for(let i =0 ; i<selectedScenario.subItems.length; i++){
-			if (selectedScenario.subItems[i].name.toLowerCase().indexOf(value.toLowerCase())!==-1){
-				selectedScenario.subItems[i]["isHidden"]= false
-			}
-			else{
-				selectedScenario.subItems[i]["isHidden"]= true
+	function handleFillterModules(e) {
+		const { value } = e.target
+		if (value !== "") {
+			for (let i = 0; i < selectedScenario.subItems.length; i++) {
+				if (selectedScenario.subItems[i].name.toLowerCase().indexOf(value.toLowerCase()) !== -1) {
+					selectedScenario.subItems[i]["isHidden"] = false
+				}
+				else {
+					selectedScenario.subItems[i]["isHidden"] = true
+				}
 			}
 		}
-	 }
-	 else{
-		for(let i =0 ; i<selectedScenario.subItems.length; i++){
-				selectedScenario.subItems[i]["isHidden"]= false
-			
+		else {
+			for (let i = 0; i < selectedScenario.subItems.length; i++) {
+				selectedScenario.subItems[i]["isHidden"] = false
+
+			}
 		}
-	 }
-	 setSelectedScenario({ ...selectedScenario});
-	 }
-	
+		setSelectedScenario({ ...selectedScenario });
+	}
+
 	function onClickUseCase(uc) {
 		if (uc.useCaseSlider) {
 			setUseCase(uc);
@@ -114,7 +114,7 @@ export const IndexPageTemplate = ({ scenarios, slider }) => {
 							<div className="slider-section">
 								<div className='row'>
 									{selectedScenario.subItems.map((item) => {
-										if (!item.isChecked && !item.isHidden ) {
+										if (!item.isChecked && !item.isHidden) {
 											return (
 												<div className='col-md-4 col-sm-12' key={v4()}>
 													<div
@@ -219,13 +219,13 @@ export const IndexPageTemplate = ({ scenarios, slider }) => {
 			let data = subItems[i]
 			if (modules.indexOf(data.module) === -1) {
 				retData.push(
-					<div className="col-md-4">
+					<div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
 						<div className="form-check module-chack-box">
 							<input className="form-check-input" checked={!data.isChecked} onChange={(e) => setSelectedUser(e, i, data.module)} type="checkbox" id={`${i}_flexCheckDefault`} />
-							<div className="module-user-profile">
-								<img src={data.logo} alt={data.logo} />
-							</div>
-							<label key={i} className="form-check-label"  htmlFor={`${i}_flexCheckDefault`}>
+							<label key={i} className="form-check-label" htmlFor={`${i}_flexCheckDefault`}>
+								<div className="module-user-profile">
+									<img src={data.logo} alt={data.logo} />
+								</div>
 								{data.module}
 							</label>
 						</div>
@@ -257,7 +257,7 @@ export const IndexPageTemplate = ({ scenarios, slider }) => {
 									name=''
 									id='search-home'
 									placeholder='Search Here...'
-									onChange={(e)=>handleFillterModules(e)}
+									onChange={(e) => handleFillterModules(e)}
 								/>
 								<i class="far fa-search"></i>
 							</div>
@@ -307,7 +307,7 @@ export const IndexPageTemplate = ({ scenarios, slider }) => {
 						</div>
 					</div>
 					<div className="modal-footer">
-						<a onClick={clearAllFilter}>Clear All</a>
+						<button type="button" class="clear-btn" onClick={clearAllFilter}>Clear All</button>
 						<button type="button" class="btn btn-dark submit-btn" onClick={applyFilterOfUser}>Submit</button>
 					</div>
 				</div>
