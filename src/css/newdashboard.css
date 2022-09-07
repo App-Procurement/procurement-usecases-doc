@@ -163,10 +163,10 @@
     background-color: rgb(0, 0, 0, 0.5)!important;
 }
 .ReactModal__Content{
-    width: 50%;
+    width: 75%;
     margin: 0px auto;
-    height: 350px;
-    inset: 150px!important;
+    height: 500px;
+    inset: 90px!important;
    
 }
 .modal-main-content .modal-header, .modal-main-content .modal-footer{
@@ -178,8 +178,8 @@
     height: 80%;
 }
 .modal-main-content .modal-body-content{
-    padding: 10px 10px 0 10px;
-    /* height: 210px; */
+    padding: 20px 10px 0 10px;
+    height: 360px;
 }
 .modal-main-content .modal-header{
     padding: 0 0 15px 0;
@@ -207,7 +207,7 @@
     display: flex;
     align-items: center;
     justify-content: start;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .modal-main-content .modal-body-content .module-chack-box .form-check-input{
     width: 22px;
