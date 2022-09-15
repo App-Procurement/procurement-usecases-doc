@@ -16,7 +16,7 @@ scenarios:
             text: none
         logo: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg
       - img: https://res.cloudinary.com/papu/image/upload/v1661779587/Final%20Procurement/Request%20/Request_pkjuz3.png
-        name: Request for proposal
+        name: Create New Request in Procurement Admin
         link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=3139%3A12644&node-id=3139%3A13606&viewport=236%2C197%2C0.08&scaling=min-zoom&starting-point-node-id=3139%3A13606
         screenshots: http://localhost:8888/newdashboard
         module: Request
@@ -215,6 +215,16 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1661864085/Final%20Procurement/Setting/Users_f5qkaf.png
             name: users
             text: none
+      - img: https://res.cloudinary.com/papu/image/upload/v1661779587/Final%20Procurement/Request%20/Request_pkjuz3.png
+        name: Request Timeline
+        link: https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=3139%3A12644&node-id=3139%3A13606&viewport=236%2C197%2C0.08&scaling=min-zoom&starting-point-node-id=3139%3A13606
+        screenshots: https://res.cloudinary.com/papu/image/upload/v1661779587/Final%20Procurement/Request%20/Request_pkjuz3.png
+        module: Request
+        logo: https://res.cloudinary.com/papu/image/upload/v1661864085/Final%20Procurement/Setting/Setting_kj86fz.png
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1661779587/Final%20Procurement/Request%20/Request_pkjuz3.png
+            name: https://res.cloudinary.com/papu/image/upload/v1661779587/Final%20Procurement/Request%20/Request_pkjuz3.png
+            text: https://res.cloudinary.com/papu/image/upload/v1661779587/Final%20Procurement/Request%20/Request_pkjuz3.png
   - img: https://res.cloudinary.com/papu/image/upload/v1618831033/icrisat/4Requestor/Requisitioner_gdqhmt.svg
     name: Requisitioner
     subItems:
